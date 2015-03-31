@@ -2,8 +2,8 @@
 -- 
 -- Usage example:
 --   local SDES = require('sdes')
---   local key = 0xf33 (10-bits key)
---   local input = 255 (8-bits input)
+--   local key = 0xf33 -- (10-bits key)
+--   local input = 255 -- (8-bits input)
 --   assert(SDES.decrypt(SDES.encrypt(input, key), key) == input)
 --
 --
