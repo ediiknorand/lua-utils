@@ -1,3 +1,15 @@
+-- Simple RSA algorithm in Lua - by Edii Knorand
+--
+--  RSA.keygen returns, respectively, modulus n, public key exponent, private key exponent
+--
+--  Usage example:
+--    
+--    local RSA = require('rsa')
+--    local modulus,public,private = RSA.keygen()
+--    local input = 42
+--    assert(RSA.crypt(RSA.crypt(input, public, modulus), private, modulus) == input)
+--
+
 local RSA = {}
 
 local NUMBER = require('number')

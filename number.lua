@@ -1,3 +1,5 @@
+-- Useful function for numbers! -- by Edii Knorand
+
 local NUMBER = {}
 
 -- Util
